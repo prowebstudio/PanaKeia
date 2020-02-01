@@ -1,0 +1,318 @@
+/*
+Author name : Ariful Islam;
+email		:md.islam.ariful@gmail.com;
+website url :;
+GPL Licenes :3.4.1;
+
+*/
+
+/*
+
+
+====Index====
+1.Header                                    
+2.Fusce at
+3.Facilisis  
+4.Ante donec 
+5.Blandit rhoncus  
+6.Placerat
+7.Fooetr 
+
+*/
+ 
+/* Global css*/
+
+h1{
+
+}
+h2{
+	
+}
+h3{
+	font-weight: normal;
+font-size: 50px;
+	color: white;
+
+}
+h4{
+font-size: 22px;
+
+}
+h5{
+font-weight: normal;
+	font-size: 30px;
+	color: white;
+}
+h6{
+
+font-size: 15px;
+
+color: white;
+
+font-weight: normal;
+}
+p{
+
+}
+.cstm-btn-one{
+	border: none;
+	border-radius: 25px;
+	margin: 30px auto;
+	display: block;
+	padding: 10px 40px;
+	background:white;
+	color: #612316;
+}
+.cstm-btn-one:hover{
+	background: #DD4B2B;
+	color: white;
+}
+.cstm-btn-two{
+
+}
+
+/* Theme css*/
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+.nav-head{
+	background:#EDEFF1;
+	padding: 25px;
+}
+
+.nav-link{
+	color:#31353e!important;
+}
+
+.nav-link.js-scroll-trigger.active{
+	background: #dd4b2b;
+	color: white!important; 
+	padding:10px 30px; 
+	border-radius: 25px;
+}
+
+/*hero section starts*/
+.hero{
+
+background: url(../img/banner.jpg)no-repeat center top;
+background-size: cover;
+width: 100%;
+float: left;
+
+}
+.hero-title{
+	    padding-top: 260px;
+    
+	text-align: center; 
+}
+
+.hero-bottom{
+	padding-top: 100px;
+}
+
+.item-one{
+	padding:10px 45px;
+	text-align: center;
+}
+.item-one h6{
+	padding-bottom: 45px;
+}
+.item-one img{
+	width: 32%;
+	padding: 15px 0px;
+}
+
+/* Our News section starts*/
+.news{
+	background:#EDEFF1;
+	padding: 50px 0px;
+}
+.news-title{
+
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	
+
+}
+.news-title h5{
+	color: black;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+.news-one{
+	text-align: center;
+}
+
+.news-one h5 {
+	padding:15px 0px;
+	font-weight: bold;
+	color: black;
+
+}
+.news-one h6 {
+	padding: 0px 25px;
+	
+	color: black;
+
+}
+
+/* Newsletter section starts*/
+
+
+
+.newsletter-one{
+	padding: 60px 0px;
+	width: 100%;height: auto;background: url(../img/newsl.jpg) no-repeat center top;
+	background-size: cover;
+	position: relative;}
+
+section.newsletter-one:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #00000059;
+}
+
+.newsletter-title{
+ text-align: center;
+ padding-bottom:50px;
+}
+.newsletter-title h5{
+	color: white;
+}
+.newsletter-title h6{
+	color: white;
+}
+
+
+.newsletter-form{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.form-area{
+	text-align: center;
+
+
+}
+.form-control-input{
+	border-radius: 25px;
+	background: #ffffff45;
+	padding: 25px 25px;
+	color: white!important;
+}
+::placeholder{
+	color: white!important;
+
+}
+
+.custm-btn-three{
+
+background: #fff;
+
+border-radius: 38px;
+
+padding: 14px;
+
+position: absolute;
+
+top: 0;
+
+right: 14px;
+
+width: 35%;
+
+border: none;
+
+color: #6E3428;
+}
+
+.custm-btn-three:hover{
+	background:#DD4B2B;
+}
+
+.top-img{
+padding-bottom: 50px;
+}
+
+
+
+/*Burger & Pizza area Start*/
+
+.rhoncus-title{
+	padding: 55px 40px;
+}
+
+
+.rhoncus-title h5{
+color: black
+
+}
+.rhoncus-title h6{
+	color: black;
+}
+
+.rhoncus-title button{
+	background: #DD4B2B;
+	color: white;
+}
+
+.rhoncus-title button:hover{
+	background: #c9c9c9;
+}
+
+
+
+/* All item list area start */
+
+.placerat{
+		background: #D75D0E;
+		padding: 50px 0px;
+
+}
+.placerat-items{
+	text-align: center;
+}
+
+.placerat-items ul{
+
+}
+
+.placerat-items ul li{
+	list-style-type: none;
+	color: white!important;
+}
+
+
+
+/*Footer area Start*/
+
+
+.footer{
+	background: url(../img/newsl.jpg)no-repeat center top;
+	padding: 80px 0px 200px 0px;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+
+	position: relative;
+}
+.footer-content{
+	text-align: center;
+}
+
+
+.footer:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #00000059;
+}
